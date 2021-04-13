@@ -7,6 +7,7 @@
     "test": "mocha",
     "debug": "node --inspect-brk ./dist/index.js"
   },
+  "npmClient": "yarn",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/bcamarneiro/the-interview-process.git"
@@ -24,6 +25,7 @@
     "@babel/preset-env": "^7.13.15",
     "@babel/register": "^7.13.14",
     "chai": "^4.3.4",
+    "lerna": "^4.0.0",
     "mocha": "^8.3.2",
     "nodemon": "^2.0.7"
   }
